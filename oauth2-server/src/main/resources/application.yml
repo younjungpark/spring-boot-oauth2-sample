@@ -21,6 +21,7 @@ security:
       client-secret: bar
     authorization:
       check-token-access: isAuthenticated()
+      token-key-access: isAuthenticated()
 
 logging.level:
   org.springframework:
